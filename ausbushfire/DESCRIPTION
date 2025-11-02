@@ -15,4 +15,4 @@ VignetteBuilder: knitr
 Depends: 
     R (>= 3.5)
 LazyData: true
-Imports: ggplot2, readr
+Imports: ggplot2, readr, shiny, dplyr, plotly

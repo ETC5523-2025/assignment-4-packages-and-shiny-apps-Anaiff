@@ -24,9 +24,9 @@ The dataset includes annual ERA5 averages of soil moisture providing by KNMI for
 
 ## Installation
 
-You can install the development version of ausbushfire from [GitHub](https://github.com/) with:
+You can install the development version of ausbushfire from [GitHub](https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff) with:
 
-```{r}
+```{r, eval=FALSE}
 install.packages("remotes")
 remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff")
 ```
@@ -35,8 +35,16 @@ remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaif
 
 This is a basic example which shows you how to get the data:
 
-```{r example}
+```{r, eval=FALSE}
 library(ausbushfire)
 # load data
 data <- ausbushfire::fwi_data
+```
+
+This is an example which shows you how to use shiny app:
+
+```{r, eval=FALSE}
+library(ausbushfire)
+# Use shiny app
+run_fwi_dashboard()
 ```
