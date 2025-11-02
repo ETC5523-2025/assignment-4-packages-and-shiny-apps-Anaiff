@@ -1,0 +1,25 @@
+---
+title: "ausbushfire"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ausbushfire}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ausbushfire)
+```
+
+This package includes Fire Weather Index data from 1978 to 2019, showing the risk of bushfire in New South Wales. 
+```{r}
+fwi_data
+```
+
