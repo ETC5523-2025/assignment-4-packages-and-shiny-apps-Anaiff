@@ -1,0 +1,31 @@
+---
+title: "ausbushfire"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ausbushfire}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, eval=FALSE}
+library(ausbushfire)
+```
+
+This package includes Fire Weather Index(FWI) and maximum value of the monthly severity rating(MSR) data from 1978 to 2019, showing the risk of bushfire in New South Wales. 
+
+You can load data by using function below:
+```{r, eval=FALSE}
+data <- fwi_data
+```
+
+You can use shiny app to visualize the data:
+```{r, eval=FALSE}
+run_fwi_dashboard()
+```
