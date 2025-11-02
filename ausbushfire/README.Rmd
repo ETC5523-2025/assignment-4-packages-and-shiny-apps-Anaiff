@@ -27,8 +27,8 @@ The dataset includes annual ERA5 averages of soil moisture providing by KNMI for
 You can install the development version of ausbushfire from [GitHub](https://github.com/) with:
 
 ```{r}
-install.packages("pak")
-pak::pak("ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff")
+install.packages("remotes")
+remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff")
 ```
 
 ## Example
