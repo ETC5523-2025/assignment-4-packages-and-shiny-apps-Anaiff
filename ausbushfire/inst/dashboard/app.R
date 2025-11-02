@@ -11,12 +11,13 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(plotly)
-library(shinytheme)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
-    theme = shinytheme(cerulean),
+    tags$head(
+      tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+    ),
     # Application title
     titlePanel("Fire Weather Index"),
 

@@ -1,6 +1,0 @@
-/* css styles */
-
-ui <- fluidPage(
-  theme = shinytheme::shinytheme(cerulean)
-)
-
