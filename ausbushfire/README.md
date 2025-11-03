@@ -20,9 +20,6 @@ You can install the development version of ausbushfire from
 [GitHub](https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff)
 with:
 
-You can check the pkgdown site by using the link:[pkgdown
-site](https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-Anaiff/)
-
 ``` r
 install.packages("remotes")
 remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-Anaiff")
@@ -45,3 +42,6 @@ library(ausbushfire)
 # Use shiny app
 run_fwi_dashboard()
 ```
+
+You can check the pkgdown site by using the link:[pkgdown
+site](https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-Anaiff/)
